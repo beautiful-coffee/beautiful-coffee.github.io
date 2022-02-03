@@ -20,6 +20,7 @@
             <p id = "index_ref">Returning student? Input an index below to return to where you left off!</p>
             <input type="text" id="skip_to_index_field">
             <button onclick="skip_to_index()">Skip to word (input an index)</button>
+            <button onclick="reset()">Restart from beginning</button>
             <p>See index list at: <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQFKYJWebIkUNISMz9ZQFRDFdpJXzvKglUSwlHQneCdILupo-KSaNm0HU-WT6bWW57QZ9gF7pdyCKW3/pubhtml?gid=0&single=true">this link</a></p>
             <p>Word definitions from archives.nd.edu/words.html</p>
             <p>Words are taken from the NLVE Level 3 List, Revision 1.02. App version 3.0.</p>
@@ -93,6 +94,10 @@
             function skip_to_index(){
                 count = document.getElementById("skip_to_index_field").value
                 document.getElementById("skip_to_index_field").value = ""
+                linear_word()
+            }
+            function reset(){
+                count = 0
                 linear_word()
             }
         </script>
