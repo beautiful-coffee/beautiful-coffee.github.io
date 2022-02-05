@@ -1,5 +1,6 @@
 # Beautiful-Coffee NLVE Practice
-![tablet-black](https://user-images.githubusercontent.com/38928942/152662732-7a468d0a-d44d-4ede-82e4-e4d030cef6e0.png)
+![tablet-black](https://user-images.githubusercontent.com/38928942/152662835-19d6e442-948f-4c2e-951d-74e95976f0d4.png)
+
 
 A light-weight, pure HTML/JS app that allows you to quickly and efficiently learn NLVE vocabulary.
 Word cycling can run entirely offline if desired, whitaker's words requires connection.
