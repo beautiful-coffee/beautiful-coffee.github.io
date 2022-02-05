@@ -1,5 +1,6 @@
 # Beautiful-Coffee NLVE Practice
-![tablet-black](https://user-images.githubusercontent.com/38928942/152662835-19d6e442-948f-4c2e-951d-74e95976f0d4.png)
+
+![tablet-black](https://user-images.githubusercontent.com/38928942/152662863-31aa0362-3460-45dd-9f66-f1202f649643.png)
 
 
 A light-weight, pure HTML/JS app that allows you to quickly and efficiently learn NLVE vocabulary.
