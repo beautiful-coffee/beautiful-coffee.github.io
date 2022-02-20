@@ -17,7 +17,11 @@
             <h2 id = 'prompt'>Click the buttons above to begin studying!</h2>
         </section>
         <section>
-            <iframe id='whitakerframe' align="bottom" frameborder="1" style="width: 500px; height: 500px;"></iframe>
+            <h3>Whitaker's Word's Entry:</h3>
+            <iframe id='whitakerframe' align="bottom" frameborder="0" style="width: 700px; height: 300px;"></iframe>
+            <p>Not sure what a word means? Look it up below!</p>
+            <input type="text" id = "lookup">
+            <button onclick="lookup()">Lookup a custom word</button>
             <p id = "index_ref">Returning student? Input an index below to return to where you left off!</p>
             <input type="text" id="skip_to_index_field">
             <button onclick="skip_to_index()">Skip to word (input an index)</button>
