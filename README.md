@@ -8,6 +8,8 @@ Word cycling can run entirely offline if desired, whitaker's words requires conn
 
 Access at [beautiful-coffee.github.io](url)
 
+Whitakers API powered by https://github.com/beautiful-coffee/Whitakers-Words-API
+
 Issues? Feel free to open an issue or a pull request, if you'd like to help out!
 
 Note:
