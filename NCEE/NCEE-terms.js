@@ -60,7 +60,9 @@ function restart(){
     render()
 }
 function previous(){
+    if(count>0){
     count--;
+    }
     localStorage.setItem("count",count)
     current_pair = term_dictionary[count]
     render()
