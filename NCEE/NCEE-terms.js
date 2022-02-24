@@ -16,6 +16,7 @@ function init(){
     else{
 
         document.getElementById("userandom").checked =false
+        document.getElementById("reshufflebutton").style.visibility = "hidden"
     }
     if (localStorage.getItem("count")!=null){
         count = localStorage.getItem("count")
