@@ -14,17 +14,17 @@ impulerit. Tantaene animīs caelestibus īrae?
 Urbs antīqua fuit, Tyriī tenuēre colōnī,
 Karthāgō, Ītaliam contrā Tiberīnaque longē
 ōstia, dīves opum studiīsque asperrima bellī,
-quam Iūnō fertur terrīs magis omnibus ūnam                           15
+quam Iūnō fertur terrīs magis omnibus ūnam                                                                                      15
 posthabitā coluisse Samō; hīc illius arma,
 hīc currus fuit; hōc rēgnum dea gentibus esse,
 sī quā Fāta sinant, iam tum tenditque fovetque.
 Prōgeniem sed enim Trōiānō ā sanguine dūcī
-audierat, Tyriās olim quae verteret arcēs;                                   20
+audierat, Tyriās olim quae verteret arcēs;                                                                                               20
 hinc populum lātē regem bellōque superbum
 ventūrum excidiō Libyae: sīc volvere Parcās.
 Id metuēns, veterisque memor Sāturnia bellī,
 prīma quod ad Trōiam prō cārīs gesserat Argīs—
-necdum etiam causae īrārum saevīque dolōrēs                          25
+necdum etiam causae īrārum saevīque dolōrēs                                                                                     25
 exciderant animō: manet altā mente repostum
 iūdicium Paridis sprētaeque iniūria fōrmae,
 et genus invīsum, et raptī Ganymēdis honōrēs.
