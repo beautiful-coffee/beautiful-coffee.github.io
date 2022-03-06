@@ -4,10 +4,11 @@
 </head>
     <div style="width: fit-content; margin: auto;" id="app">
         <h1>Beautiful Coffee Aeneid Reader</h1>
-        <h3 id="bookid">Book 1: Storm and Refuge</h3>
+        <h3 id="bookid" v-html="title"></h3>
         <pre id="pre">
-        <p id="paragraph" @click="doSomething" v-html="page"></p>
+        <p style="white-space: pre;" id="paragraph" @click="doSomething" v-html="page"></p>
         <p>
+
 
 
             
@@ -16,8 +17,16 @@
         <div style="position: fixed; bottom: 0;" class="card">
             <div class="card-body">
                 <h5 class="card-title">Whitakers Entry</h5>
-            <iframe id="whitakers-entry" style="width: 700px;"></iframe>
+            <iframe id="whitakers-entry" style="width: 700;"></iframe>
+            <div style="display: inline-block; justify-content: right;">
+                <p style="white-space: pre; white-space: pre-line;">A project by Beautiful Coffee.
+                    Learn more about the project <a href="">here</a>
+                </p>
+                <button id="prevbtn" onclick="prev()" class="btn btn-primary">Previous Book</button>
+                <button id="nextbtn" onclick="next()" class="btn btn-primary">Next Book</button>
             </div>
+            </div>
+
         </div>
     </div>
 
