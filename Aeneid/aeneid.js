@@ -10276,7 +10276,18 @@ function init(){
 }
 function next(){
   count++
+  if(count>11){
+    count= 11
+  }
   localStorage.setItem("count",count)
   init()
 }
 
+function prev(){
+  count--;
+  if(count<0){
+    count = 0
+  }
+  localStorage.setItem("count", count)
+  init()
+}
