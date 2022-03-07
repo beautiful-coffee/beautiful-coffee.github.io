@@ -1,4 +1,5 @@
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beautiful Coffee Aeneid Reader</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -8,6 +9,13 @@
         <h3 id="bookid" v-html="title"></h3>
         <pre id="pre">
         <p style="white-space: pre;" id="paragraph" @click="doSomething" v-html="page"></p>
+        <div style="display: flex; justify-content: space-between;">
+            <p style="white-space: pre; white-space: pre-line;">A project by Beautiful Coffee.
+                Learn more about the project <a href="https://github.com/beautiful-coffee/beautiful-coffee.github.io/tree/main/Aeneid">here</a>
+            </p>
+            <button id="prevbtn" onclick="prev()" class="btn btn-primary btn-sm">Previous Book</button>
+            <button id="nextbtn" onclick="next()" class="btn btn-primary btn-sm">Next Book</button>
+        </div>
         <p>
 
 
@@ -18,14 +26,9 @@
         <div style="position: fixed; bottom: 0;" class="card">
             <div class="card-body">
                 <h5 class="card-title">Whitakers Entry</h5>
-            <iframe id="whitakers-entry" style="width: 700;"></iframe>
-            <div style="display: inline-block; justify-content: right;">
-                <p style="white-space: pre; white-space: pre-line;">A project by Beautiful Coffee.
-                    Learn more about the project <a href="https://github.com/beautiful-coffee/beautiful-coffee.github.io/tree/main/Aeneid">here</a>
-                </p>
-                <button id="prevbtn" onclick="prev()" class="btn btn-primary">Previous Book</button>
-                <button id="nextbtn" onclick="next()" class="btn btn-primary">Next Book</button>
-            </div>
+            <iframe id="whitakers-entry" style="width: 539;"></iframe>
+            
+
             </div>
 
         </div>
