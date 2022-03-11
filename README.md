@@ -17,6 +17,8 @@ Note:
 This app is not affliated with the NLVE in any way. The lists and code are deemed accurate, but not 100% guaranteed.
 If you'd like to use this app or its code for your own app, please message first! Thank you!
 
+Interested in the technology we use? See stack.md
+
 We have a new app for NCEE practice too! See it at https://beautiful-coffee.github.io/NCEE
 
 
