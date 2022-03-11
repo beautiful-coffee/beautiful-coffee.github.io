@@ -11,3 +11,6 @@ We use:
 - VS Code with Github Desktop to code the frontend
 - Github Actions to automate deployment to Heroku and Pages
 - The Local Storage API to remember where you left off in all three apps
+- We use https://purifycss.online/ to optimize the css on the Aeneid app - ~95% of bootstrap's css is NOT used in the Aeneid app, so we can save load times by reducing css use.
+- We delete the bootstrap js files entirely as well, since the bootstrap components the Aeneid app uses do not require bootstrap's js files, so we can save on performance!
+- Prettier is used to format when necessary.
