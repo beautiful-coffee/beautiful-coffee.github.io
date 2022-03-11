@@ -10266,8 +10266,8 @@ var vm = new Vue({
   }
 })
 function init(){
-  if(localStorage.getItem("count")!=undefined){
-    count = localStorage.getItem("count")
+  if(localStorage.getItem("count_aeneid")!=undefined){
+    count = localStorage.getItem("count_aeneid")
   }
   page=entire_aeneid[count]
   title = book_titles[count]
@@ -10279,7 +10279,7 @@ function next(){
   if(count>11){
     count= 11
   }
-  localStorage.setItem("count",count)
+  localStorage.setItem("count_aeneid",count)
   init()
 }
 
@@ -10288,6 +10288,6 @@ function prev(){
   if(count<0){
     count = 0
   }
-  localStorage.setItem("count", count)
+  localStorage.setItem("count_aeneid", count)
   init()
 }

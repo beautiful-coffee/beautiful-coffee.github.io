@@ -19,8 +19,8 @@ function init() {
         document.getElementById("userandom").checked =false
         document.getElementById("reshufflebutton").style.visibility = "hidden"
     }
-    if (localStorage.getItem("count")!=null){
-        count = localStorage.getItem("count")
+    if (localStorage.getItem("count_ncee")!=null){
+        count = localStorage.getItem("count_ncee")
     }
     current_pair = term_dictionary[count]
     render()
@@ -34,7 +34,7 @@ function render(){
 
 function next(){
     count++;
-    localStorage.setItem("count",count)
+    localStorage.setItem("count_ncee",count)
     current_pair = term_dictionary[count]
     render()
 }
@@ -57,7 +57,7 @@ function toggle(){
 
 function restart(){
     count = 0;
-    localStorage.setItem("count",count)
+    localStorage.setItem("count_ncee",count)
     current_pair = term_dictionary[count]
     render()
 }
@@ -65,7 +65,7 @@ function previous(){
     if(count>0){
     count--;
     }
-    localStorage.setItem("count",count)
+    localStorage.setItem("count_ncee",count)
     current_pair = term_dictionary[count]
     render()
 }
@@ -86,7 +86,7 @@ function setrandom(){
 
 function skip(){
     count = document.getElementById("skipindex").value
-    localStorage.setItem("count",count)
+    localStorage.setItem("count_ncee",count)
     current_pair = term_dictionary[count]
     render()
     document.getElementById("skipindex").value = ""
