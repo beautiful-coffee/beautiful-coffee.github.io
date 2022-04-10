@@ -9,6 +9,7 @@ function search(){
     var history = JSON.parse(localStorage.getItem("history"))
     if (history == null){
         localStorage.setItem("history", JSON.stringify([query]))
+        place = 1
     }
     else{
         history.push(query)
