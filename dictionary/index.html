@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Whitakers Words App</title>
+</head>
+<body>
+    <h1>Whitakers Words - Beautiful Coffee App</h1>
+    <p>Look up a word below!</p>
+    <section>
+        <input id="dlookup" type="text">
+        <button onclick="search()">Search</button>
+    </section>
+    <section>
+        <p>See your history below!</p>
+    </section>
+    <section>
+        <button onclick="previous()">Previous Word</button>
+        <button onclick="next()">Next Word</button>
+        <button onclick="showhistory()">View History</button>
+    </section>
+    <section>
+        <p id="history"></p>
+    </section>
+    <section>
+        <iframe id='whitakerframe' align="bottom" frameborder="0" style="width: 700px; height: 400px;"></iframe>
+    </section>
+    <section>
+        <p>App Version 1.0 | A project by Beautiful Coffee | Learn more <a href="">here</a></p>
+    </section>
+    <script src="/dictionary/whitakers.js"></script>
+</body>
