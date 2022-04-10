@@ -23,3 +23,5 @@ We have a new app for NCEE practice too! See it at https://beautiful-coffee.gith
 
 
 We have a new app for Aeneid readers too! See it at https://beautiful-coffee.github.io/Aeneid
+
+We have a new app for Whitakers users! See it at https://beautiful-coffee.github.io/dictionary
