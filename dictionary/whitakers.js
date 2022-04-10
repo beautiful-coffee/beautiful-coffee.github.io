@@ -1,5 +1,10 @@
 const api_stem = "https://infinite-ravine-64088.herokuapp.com/translate/";
-let place = JSON.parse(localStorage.getItem("history")).length - 1
+let place = 0;
+function init(){
+    if(localStorage.getItem("history")!=null){
+        place = JSON.parse(localStorage.getItem("history")).length - 1
+    }
+}
 function search(){
     let query = document.getElementById("dlookup").value
     console.log(query)
@@ -9,7 +14,6 @@ function search(){
     var history = JSON.parse(localStorage.getItem("history"))
     if (history == null){
         localStorage.setItem("history", JSON.stringify([query]))
-        place = 1
     }
     else{
         history.push(query)
