@@ -4,6 +4,7 @@ Provides a nice GUI and UX improvements to track and view Whitakers Words lookup
  - Other current Whitakers Apps allow you to lookup words, but you can't use the history button on the browser to remember past words. This app lets you do that, and better yet, your searches persist across tabs, even if you close the original tab!
  - This app allows you to use browser back/forward buttons to look at your previous entries as well as the next/previous built in buttons
  - This app also disables spellcheck on mobile devices unlike other Whitakers apps, which is an absolute GODSEND if you need to lookup on the go.
+ - This app also allows you to do english-to-latin, which many other Whitakers instances have removed over time.
 
 Contributions/bugs/etc? Feel free to open a PR or issue. For code reuse please reach out.
 

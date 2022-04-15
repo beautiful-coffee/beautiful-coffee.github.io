@@ -22,6 +22,23 @@ function search(){
     place = history.length -1
 }
 
+function searchE(){
+    let query = document.getElementById("dlookup").value
+    console.log(query)
+    document.getElementById("dlookup").value = ""
+    console.log("https://infinite-ravine-64088.herokuapp.com/translate-english/"+query)
+    document.getElementById("whitakerframe").src = "https://infinite-ravine-64088.herokuapp.com/translate-english/"+query
+    var history = JSON.parse(localStorage.getItem("history"))
+    if (history == null){
+        localStorage.setItem("history", JSON.stringify([query]))
+    }
+    else{
+        history.push(query)
+        localStorage.setItem("history",JSON.stringify(history))
+    }
+    place = history.length -1
+}
+
 function search_history(word){
     document.getElementById("whitakerframe").src = api_stem+word
 }
@@ -44,4 +61,8 @@ function next(){
 
 function showhistory(){
     document.getElementById("history").innerHTML = "Your lookups: "+JSON.parse(localStorage.getItem("history"))
+}
+
+function hidehistory(){
+    document.getElementById("history").innerHTML = ""
 }
